@@ -40,7 +40,7 @@ jobs:
         run: npm install tailwindcss @tailwindcss/vite
 
       - name: Build the project
-        run: npm run build -- --base=/projekt-2/
+        run: npm run build -- --base=/JPacewicz_IFS_10/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
